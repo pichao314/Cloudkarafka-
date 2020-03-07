@@ -1,0 +1,4 @@
+export CLOUDKARAFKA_BROKERS="moped-01.srvs.cloudkafka.com:9094,moped-02.srvs.cloudkafka.com:9094,moped-03.srvs.cloudkafka.com:9094"
+export CLOUDKARAFKA_USERNAME="ct2zcoxo"
+export CLOUDKARAFKA_PASSWORD="ar36xa4-gAmCeB42eH_UvYhrBgEpygdI"
+export CLOUDKARAFKA_TOPIC="ct2zcoxo-default"

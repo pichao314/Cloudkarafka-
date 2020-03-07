@@ -15,7 +15,8 @@ if __name__ == '__main__':
         'security.protocol': 'SASL_SSL',
 	'sasl.mechanisms': 'SCRAM-SHA-256',
         'sasl.username': os.environ['CLOUDKARAFKA_USERNAME'],
-        'sasl.password': os.environ['CLOUDKARAFKA_PASSWORD']
+        'sasl.password': os.environ['CLOUDKARAFKA_PASSWORD'],
+	'ssl.ca.location': 'cloudkarafka.ca'
     }
 
     p = Producer(**conf)
